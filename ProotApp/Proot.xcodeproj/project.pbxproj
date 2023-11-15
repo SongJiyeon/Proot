@@ -7,13 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EDB463FE2B045E0E00A87ECF /* ProotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB463FD2B045E0E00A87ECF /* ProotApp.swift */; };
-		EDB464002B045E0E00A87ECF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB463FF2B045E0E00A87ECF /* ContentView.swift */; };
-		EDB464022B045E1000A87ECF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDB464012B045E1000A87ECF /* Assets.xcassets */; };
-		EDB464062B045E1000A87ECF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDB464052B045E1000A87ECF /* Preview Assets.xcassets */; };
-		EDB464102B045E1000A87ECF /* ProotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB4640F2B045E1000A87ECF /* ProotTests.swift */; };
-		EDB4641A2B045E1000A87ECF /* ProotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB464192B045E1000A87ECF /* ProotUITests.swift */; };
-		EDB4641C2B045E1000A87ECF /* ProotUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB4641B2B045E1000A87ECF /* ProotUITestsLaunchTests.swift */; };
+		ED8FF24B2B05938700A4D0D1 /* ProotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8FF2432B05938700A4D0D1 /* ProotTests.swift */; };
+		ED8FF24C2B05938700A4D0D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED8FF2462B05938700A4D0D1 /* Assets.xcassets */; };
+		ED8FF24D2B05938700A4D0D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED8FF2482B05938700A4D0D1 /* Preview Assets.xcassets */; };
+		ED8FF24E2B05938700A4D0D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8FF2492B05938700A4D0D1 /* ContentView.swift */; };
+		ED8FF24F2B05938700A4D0D1 /* ProotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8FF24A2B05938700A4D0D1 /* ProotApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,27 +22,18 @@
 			remoteGlobalIDString = EDB463F92B045E0E00A87ECF;
 			remoteInfo = Proot;
 		};
-		EDB464162B045E1000A87ECF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EDB463F22B045E0E00A87ECF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EDB463F92B045E0E00A87ECF;
-			remoteInfo = Proot;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ED8FF2432B05938700A4D0D1 /* ProotTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProotTests.swift; sourceTree = "<group>"; };
+		ED8FF2452B05938700A4D0D1 /* Proot.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = Proot.entitlements; sourceTree = "<group>"; };
+		ED8FF2462B05938700A4D0D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED8FF2482B05938700A4D0D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ED8FF2492B05938700A4D0D1 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ED8FF24A2B05938700A4D0D1 /* ProotApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProotApp.swift; sourceTree = "<group>"; };
+		ED8FF2502B05939100A4D0D1 /* Proot */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Proot; path = ..; sourceTree = "<group>"; };
 		EDB463FA2B045E0E00A87ECF /* Proot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Proot.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDB463FD2B045E0E00A87ECF /* ProotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProotApp.swift; sourceTree = "<group>"; };
-		EDB463FF2B045E0E00A87ECF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		EDB464012B045E1000A87ECF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EDB464032B045E1000A87ECF /* Proot.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Proot.entitlements; sourceTree = "<group>"; };
-		EDB464052B045E1000A87ECF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EDB4640B2B045E1000A87ECF /* ProotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDB4640F2B045E1000A87ECF /* ProotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProotTests.swift; sourceTree = "<group>"; };
-		EDB464152B045E1000A87ECF /* ProotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDB464192B045E1000A87ECF /* ProotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProotUITests.swift; sourceTree = "<group>"; };
-		EDB4641B2B045E1000A87ECF /* ProotUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProotUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,22 +51,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EDB464122B045E1000A87ECF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED8FF2422B05938700A4D0D1 /* ProotTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED8FF2432B05938700A4D0D1 /* ProotTests.swift */,
+			);
+			path = ProotTests;
+			sourceTree = "<group>";
+		};
+		ED8FF2442B05938700A4D0D1 /* Proot */ = {
+			isa = PBXGroup;
+			children = (
+				ED8FF2452B05938700A4D0D1 /* Proot.entitlements */,
+				ED8FF2462B05938700A4D0D1 /* Assets.xcassets */,
+				ED8FF2472B05938700A4D0D1 /* Preview Content */,
+				ED8FF2492B05938700A4D0D1 /* ContentView.swift */,
+				ED8FF24A2B05938700A4D0D1 /* ProotApp.swift */,
+			);
+			path = Proot;
+			sourceTree = "<group>";
+		};
+		ED8FF2472B05938700A4D0D1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ED8FF2482B05938700A4D0D1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		EDB463F12B045E0E00A87ECF = {
 			isa = PBXGroup;
 			children = (
-				EDB463FC2B045E0E00A87ECF /* Proot */,
-				EDB4640E2B045E1000A87ECF /* ProotTests */,
-				EDB464182B045E1000A87ECF /* ProotUITests */,
+				ED8FF2502B05939100A4D0D1 /* Proot */,
+				ED8FF2442B05938700A4D0D1 /* Proot */,
+				ED8FF2422B05938700A4D0D1 /* ProotTests */,
 				EDB463FB2B045E0E00A87ECF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,46 +97,8 @@
 			children = (
 				EDB463FA2B045E0E00A87ECF /* Proot.app */,
 				EDB4640B2B045E1000A87ECF /* ProotTests.xctest */,
-				EDB464152B045E1000A87ECF /* ProotUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		EDB463FC2B045E0E00A87ECF /* Proot */ = {
-			isa = PBXGroup;
-			children = (
-				EDB463FD2B045E0E00A87ECF /* ProotApp.swift */,
-				EDB463FF2B045E0E00A87ECF /* ContentView.swift */,
-				EDB464012B045E1000A87ECF /* Assets.xcassets */,
-				EDB464032B045E1000A87ECF /* Proot.entitlements */,
-				EDB464042B045E1000A87ECF /* Preview Content */,
-			);
-			path = Proot;
-			sourceTree = "<group>";
-		};
-		EDB464042B045E1000A87ECF /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				EDB464052B045E1000A87ECF /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		EDB4640E2B045E1000A87ECF /* ProotTests */ = {
-			isa = PBXGroup;
-			children = (
-				EDB4640F2B045E1000A87ECF /* ProotTests.swift */,
-			);
-			path = ProotTests;
-			sourceTree = "<group>";
-		};
-		EDB464182B045E1000A87ECF /* ProotUITests */ = {
-			isa = PBXGroup;
-			children = (
-				EDB464192B045E1000A87ECF /* ProotUITests.swift */,
-				EDB4641B2B045E1000A87ECF /* ProotUITestsLaunchTests.swift */,
-			);
-			path = ProotUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,24 +139,6 @@
 			productReference = EDB4640B2B045E1000A87ECF /* ProotTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		EDB464142B045E1000A87ECF /* ProotUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EDB464252B045E1000A87ECF /* Build configuration list for PBXNativeTarget "ProotUITests" */;
-			buildPhases = (
-				EDB464112B045E1000A87ECF /* Sources */,
-				EDB464122B045E1000A87ECF /* Frameworks */,
-				EDB464132B045E1000A87ECF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EDB464172B045E1000A87ECF /* PBXTargetDependency */,
-			);
-			name = ProotUITests;
-			productName = ProotUITests;
-			productReference = EDB464152B045E1000A87ECF /* ProotUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -199,10 +153,6 @@
 						CreatedOnToolsVersion = 15.0.1;
 					};
 					EDB4640A2B045E1000A87ECF = {
-						CreatedOnToolsVersion = 15.0.1;
-						TestTargetID = EDB463F92B045E0E00A87ECF;
-					};
-					EDB464142B045E1000A87ECF = {
 						CreatedOnToolsVersion = 15.0.1;
 						TestTargetID = EDB463F92B045E0E00A87ECF;
 					};
@@ -223,7 +173,6 @@
 			targets = (
 				EDB463F92B045E0E00A87ECF /* Proot */,
 				EDB4640A2B045E1000A87ECF /* ProotTests */,
-				EDB464142B045E1000A87ECF /* ProotUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,19 +182,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDB464062B045E1000A87ECF /* Preview Assets.xcassets in Resources */,
-				EDB464022B045E1000A87ECF /* Assets.xcassets in Resources */,
+				ED8FF24D2B05938700A4D0D1 /* Preview Assets.xcassets in Resources */,
+				ED8FF24C2B05938700A4D0D1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		EDB464092B045E1000A87ECF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EDB464132B045E1000A87ECF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -259,8 +201,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDB464002B045E0E00A87ECF /* ContentView.swift in Sources */,
-				EDB463FE2B045E0E00A87ECF /* ProotApp.swift in Sources */,
+				ED8FF24E2B05938700A4D0D1 /* ContentView.swift in Sources */,
+				ED8FF24B2B05938700A4D0D1 /* ProotTests.swift in Sources */,
+				ED8FF24F2B05938700A4D0D1 /* ProotApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,16 +211,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDB464102B045E1000A87ECF /* ProotTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EDB464112B045E1000A87ECF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EDB4641A2B045E1000A87ECF /* ProotUITests.swift in Sources */,
-				EDB4641C2B045E1000A87ECF /* ProotUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,11 +221,6 @@
 			isa = PBXTargetDependency;
 			target = EDB463F92B045E0E00A87ECF /* Proot */;
 			targetProxy = EDB4640C2B045E1000A87ECF /* PBXContainerItemProxy */;
-		};
-		EDB464172B045E1000A87ECF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = EDB463F92B045E0E00A87ECF /* Proot */;
-			targetProxy = EDB464162B045E1000A87ECF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -349,7 +277,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -404,7 +334,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -533,50 +465,6 @@
 			};
 			name = Release;
 		};
-		EDB464262B045E1000A87ECF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Y59SLS4QLN;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.stozi.ProotUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Proot;
-			};
-			name = Debug;
-		};
-		EDB464272B045E1000A87ECF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Y59SLS4QLN;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.stozi.ProotUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Proot;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -603,15 +491,6 @@
 			buildConfigurations = (
 				EDB464232B045E1000A87ECF /* Debug */,
 				EDB464242B045E1000A87ECF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EDB464252B045E1000A87ECF /* Build configuration list for PBXNativeTarget "ProotUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EDB464262B045E1000A87ECF /* Debug */,
-				EDB464272B045E1000A87ECF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
