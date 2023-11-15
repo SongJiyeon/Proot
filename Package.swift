@@ -15,6 +15,9 @@ let package = Package(
             targets: ["Proot"]
         ),
     ],
+    dependencies: [
+      .package(url: "https://github.com/pointfreeco/swift-composable-architecture.git", from: "1.4.0"),
+    ],
     targets: [
         .target(name: "Proot"),
         .testTarget(
