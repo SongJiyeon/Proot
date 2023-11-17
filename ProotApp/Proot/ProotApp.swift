@@ -2,7 +2,7 @@ import App
 import SwiftUI
 
 @main
-struct ProotApp: App {
+struct ProotApp: SwiftUI.App {
   var body: some Scene {
     WindowGroup {
       AppView(
