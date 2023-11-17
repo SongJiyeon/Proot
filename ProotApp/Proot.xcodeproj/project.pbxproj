@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED6712A42B07394E00685362 /* App in Frameworks */ = {isa = PBXBuildFile; productRef = ED6712A32B07394E00685362 /* App */; };
 		ED8FF24B2B05938700A4D0D1 /* ProotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8FF2432B05938700A4D0D1 /* ProotTests.swift */; };
 		ED8FF24C2B05938700A4D0D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED8FF2462B05938700A4D0D1 /* Assets.xcassets */; };
 		ED8FF24D2B05938700A4D0D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED8FF2482B05938700A4D0D1 /* Preview Assets.xcassets */; };
@@ -39,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED6712A42B07394E00685362 /* App in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +54,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED6712A22B07394E00685362 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ED8FF2422B05938700A4D0D1 /* ProotTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +95,7 @@
 				ED8FF2442B05938700A4D0D1 /* Proot */,
 				ED8FF2422B05938700A4D0D1 /* ProotTests */,
 				EDB463FB2B045E0E00A87ECF /* Products */,
+				ED6712A22B07394E00685362 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,6 +124,9 @@
 			dependencies = (
 			);
 			name = Proot;
+			packageProductDependencies = (
+				ED6712A32B07394E00685362 /* App */,
+			);
 			productName = Proot;
 			productReference = EDB463FA2B045E0E00A87ECF /* Proot.app */;
 			productType = "com.apple.product-type.application";
@@ -492,6 +505,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ED6712A32B07394E00685362 /* App */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = App;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EDB463F22B045E0E00A87ECF /* Project object */;
 }

@@ -10,6 +10,7 @@ let package = Package(
       .macOS(.v10_15),
     ],
     products: [
+      .library(name: "App", targets: ["App"]),
       .library(name: "Home", targets: ["Home"]),
     ],
     dependencies: [
@@ -17,11 +18,19 @@ let package = Package(
     ],
     targets: [
       .target(
+        name: "App",
+        dependencies: [
+          .product(name: "ComposableArchitecture", package: "swift-composable-architecture"),
+          .target(name: "Home"),
+        ],
+        path: "Sources/App"
+      ),
+      .target(
         name: "Home",
         dependencies: [
           .product(name: "ComposableArchitecture", package: "swift-composable-architecture"),
         ],
         path: "Sources/Home"
-      )
+      ),
     ]
 )
