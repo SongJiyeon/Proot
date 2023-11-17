@@ -10,7 +10,6 @@
 		ED8FF24B2B05938700A4D0D1 /* ProotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8FF2432B05938700A4D0D1 /* ProotTests.swift */; };
 		ED8FF24C2B05938700A4D0D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED8FF2462B05938700A4D0D1 /* Assets.xcassets */; };
 		ED8FF24D2B05938700A4D0D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED8FF2482B05938700A4D0D1 /* Preview Assets.xcassets */; };
-		ED8FF24E2B05938700A4D0D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8FF2492B05938700A4D0D1 /* ContentView.swift */; };
 		ED8FF24F2B05938700A4D0D1 /* ProotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8FF24A2B05938700A4D0D1 /* ProotApp.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,7 +28,6 @@
 		ED8FF2452B05938700A4D0D1 /* Proot.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = Proot.entitlements; sourceTree = "<group>"; };
 		ED8FF2462B05938700A4D0D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED8FF2482B05938700A4D0D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		ED8FF2492B05938700A4D0D1 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ED8FF24A2B05938700A4D0D1 /* ProotApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProotApp.swift; sourceTree = "<group>"; };
 		ED8FF2502B05939100A4D0D1 /* Proot */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Proot; path = ..; sourceTree = "<group>"; };
 		EDB463FA2B045E0E00A87ECF /* Proot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Proot.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,7 +66,6 @@
 				ED8FF2452B05938700A4D0D1 /* Proot.entitlements */,
 				ED8FF2462B05938700A4D0D1 /* Assets.xcassets */,
 				ED8FF2472B05938700A4D0D1 /* Preview Content */,
-				ED8FF2492B05938700A4D0D1 /* ContentView.swift */,
 				ED8FF24A2B05938700A4D0D1 /* ProotApp.swift */,
 			);
 			path = Proot;
@@ -201,7 +198,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED8FF24E2B05938700A4D0D1 /* ContentView.swift in Sources */,
 				ED8FF24B2B05938700A4D0D1 /* ProotTests.swift in Sources */,
 				ED8FF24F2B05938700A4D0D1 /* ProotApp.swift in Sources */,
 			);
