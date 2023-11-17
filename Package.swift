@@ -10,18 +10,18 @@ let package = Package(
       .macOS(.v10_15),
     ],
     products: [
-        .library(
-            name: "ProotApp",
-            targets: ["Proot"]
-        ),
+      .library(name: "Home", targets: ["Home"]),
     ],
     dependencies: [
       .package(url: "https://github.com/pointfreeco/swift-composable-architecture.git", from: "1.4.0"),
     ],
     targets: [
-        .target(name: "Proot"),
-        .testTarget(
-            name: "ProotTests",
-            dependencies: ["Proot"]),
+      .target(
+        name: "Home",
+        dependencies: [
+          .product(name: "ComposableArchitecture", package: "swift-composable-architecture"),
+        ],
+        path: "Sources/Home"
+      )
     ]
 )
